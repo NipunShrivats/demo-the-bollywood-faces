@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
 
 export default function Footer() {
     return (
