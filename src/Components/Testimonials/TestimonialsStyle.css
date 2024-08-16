@@ -1,0 +1,117 @@
+.testimonials {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* padding: 2rem; */
+    /* background-color: rgb(39, 113, 179); */
+}
+
+.testimonials .section1 {
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 2.1rem;
+    justify-content: center;
+
+}
+
+.playIconLink {
+    /* border: 2px solid red; */
+}
+
+.testimonials .section1 .ele,
+.testimonials .section2 .ele {
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    /* padding: 1rem; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+
+.testimonials .section1 .ele .img {
+    width: 18rem;
+    border-radius: .2rem;
+    box-shadow: 1px 2px 6px var(--theme-color-highlight);
+}
+
+/* .testimonials .section2 .ele .img {
+    width: 30rem;
+    border-radius: 1rem;
+} */
+
+.testimonials .section1 .ele .playIconLink {
+    /* border: 2px solid rgb(0, 97, 6); */
+    position: absolute;
+    width: 5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.testimonials .section1 .ele .playIcon {
+    /* border: 2px solid rgb(0, 97, 6); */
+    /* position: absolute; */
+    width: 5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.testimonials .section1 .ele .playIcon:hover {
+    /* border: 2px solid rgb(0, 97, 6); */
+    /* position: absolute; */
+    scale: 1.2;
+}
+
+@media (max-width:800px) {
+    .testimonials {
+        /* border: 2px solid red; */
+    }
+
+    .testimonials .section1,
+    .testimonials .section2 {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .playIconLink {
+        /* border: 2px solid red; */
+    }
+
+    .testimonials .section1 .ele,
+    .testimonials .section2 .ele {
+        /* border: 2px solid rgb(0, 97, 6); */
+        /* position: absolute; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .testimonials .section1 .ele .img,
+    .testimonials .section2 .ele .img {
+        width: 14rem;
+        border-radius: .5rem;
+    }
+
+    .testimonials .section1 .ele .playIcon,
+    .testimonials .section2 .ele .playIcon {
+        /* border: 2px solid rgb(0, 97, 6); */
+        position: absolute;
+        width: 5rem;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .testimonials .section1 .ele .playIcon:hover,
+    .testimonials .section2 .ele .playIcon:hover {
+        /* border: 2px solid rgb(0, 97, 6); */
+        /* position: absolute; */
+        scale: 1.2;
+    }
+}

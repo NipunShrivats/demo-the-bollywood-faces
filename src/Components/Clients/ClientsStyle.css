@@ -1,0 +1,20 @@
+.clients {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0rem 6rem 0rem;
+}
+
+.clients .clientBox1 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:1300px) {}
