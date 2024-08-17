@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-    --theme-color-bg: rgba(227, 15, 14, 1);
-    --theme-color-highlight: rgba(227, 15, 14, 1);
+    --theme-color-bg: rgb(232, 151, 0);
+    --theme-color-bg1: rgb(164, 106, 0);
+    --theme-color-bg2: rgb(255, 186, 58);
     --theme-color-highlight1: rgb(230, 78, 78);
     --theme-color-highlight2: rgba(53, 11, 11, 0.416);
     --theme-color-highlight3: rgba(23, 5, 0, 0.372);
     --theme-color-highlight4: rgb(163, 203, 255);
-    --theme-color-input: rgb(255, 235, 235);
+    --theme-color-input: rgb(255, 245, 226);
 }
 
 svg {
@@ -68,7 +69,7 @@ a {
 
 .btn.dark-btn:hover {
     /* background: #212EA0; */
-    background: rgb(243, 87, 87);
+    background: var(--theme-color-bg2);
 }
 
 .btn span {

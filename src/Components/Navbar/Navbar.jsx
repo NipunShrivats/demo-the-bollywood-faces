@@ -4,6 +4,8 @@ import logow from "../../assets/imgAssets/logo-white.png"
 import logob from "../../assets/imgAssets/logo-black.png"
 
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+
+// import { Link } from "react-router-dom"
 import { RxHamburgerMenu } from "react-icons/rx";
 
 import MenuIcon from "../../assets/imgAssets/menu-icon.png"
@@ -37,31 +39,29 @@ export default function Navbar() {
                     </div>
 
                 </div>
-                {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
                 <img src={MenuIcon} alt="" className='menu-icon' onClick={toggleMenu} />
+
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
-                    <li><Link to='carosel'
+
+                    <li><Link to='hero'
                         smooth={true}
                         offset={0}
                         durastion={500}>Home</Link></li>
-                    <li><Link to='Issues'
-                        smooth={true}
-                        offset={-210}
-                        durastion={500}>Issues</Link></li>
-                    <li> <Link to='about'
-                        smooth={true}
-                        offset={-240}
-                        durastion={500}>Success Stories</Link></li>
-                    <li><Link to='clients'
+
+                    <li><a href="/Issues">Issues</a></li>
+
+                    <li><a href="/Successstories">Success Stories</a></li>
+
+                    <li><Link to='magazine'
                         smooth={true}
                         offset={-230}
                         durastion={500}>Magazine release</Link></li>
+
                     <li className='btn-li'><Link to='contact'
                         smooth={true}
                         offset={-250}
-                        durastion={500} className='btn'>Contact Us</Link> </li>
+                        durastion={500} className='btn dark-btn'>Contact Us</Link> </li>
                 </ul>
-                {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
             </nav>
         </>
     )

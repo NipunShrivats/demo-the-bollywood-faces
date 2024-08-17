@@ -52,7 +52,7 @@
     font-size: 25px;
     margin-right: 10px;
     /* color: #222994; */
-    color: var(--theme-color-highlight);
+    color: var(--theme-color-bg);
 }
 
 .contact form input,

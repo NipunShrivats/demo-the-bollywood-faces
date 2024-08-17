@@ -13,4 +13,5 @@
 
 .headers {
     margin: 1rem 0rem;
+    color: var(--theme-color-bg);
 }

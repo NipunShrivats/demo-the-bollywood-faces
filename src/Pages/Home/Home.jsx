@@ -3,13 +3,11 @@ import "./HomeStyle.css"
 
 import Navbar from '../../Components/Navbar/Navbar'
 import Title from '../../Components/Title/Title'
-import Contact from '../../Components/Contact/Contact'
 import Hero from '../../Components/Hero/Hero'
-import Services from '../../Components/Services/Services'
 import About from '../../Components/About/About'
-import Clients from '../../Components/Clients/Clients'
-import Testimonials from '../../Components/Testimonials/Testimonials'
+import Contact from '../../Components/Contact/Contact'
 import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer'
+import Magazine from '../../Components/Magazine/Magazine'
 
 import BeatLoader from "react-spinners/BeatLoader";
 
@@ -33,7 +31,7 @@ export default function Home() {
                 loading ?
                     <div className='loader-cover'>
                         <BeatLoader
-                            color={"#ff0000"}
+                            color={"rgb(232, 151, 0)"}
                             loading={loading}
                             size={20}
                             aria-label="Loading bouncer"
@@ -43,16 +41,8 @@ export default function Home() {
                     </div>
                     :
                     <>
-                        {/* <Loader /> */}
                         <Navbar />
                         <Hero />
-
-
-
-                        <div className='container'>
-                            <Title title={"our services"} subtitle={"what we offer"} />
-                            <Services />
-                        </div>
 
                         <div className='container'>
                             <Title title={"about Us"} subtitle={"know more about us"} />
@@ -60,14 +50,9 @@ export default function Home() {
                         </div>
 
                         <div className='container'>
-                            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+                            <Title title={"Magazine Release"} subtitle={"release event gallery"} />
+                            < Magazine />
                         </div>
-                        <Clients />
-
-                        <div className='container'>
-                            <Title title={"testimonials"} subtitle={"what client says?"} />
-                        </div>
-                        <Testimonials />
 
                         <div className='container'>
                             <Title title={"contact us"} subtitle={"get in touch"} />

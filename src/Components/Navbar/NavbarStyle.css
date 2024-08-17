@@ -89,7 +89,7 @@ nav ul li:last-child:hover {
 
 nav ul li:hover {
     /* border-bottom: 2px solid rgb(255, 255, 255); */
-    color: grey;
+    color: var(--theme-color-bg1);
 }
 
 .dark-nav {
@@ -112,9 +112,9 @@ nav span {
 
 /* ------------- media query ------------- */
 
-@media (max-width:1110px) {
+@media (max-width:1200px) {
     .logo {
-        /* width: 140px; */
+        /* width: 1.5rem; */
     }
 
     nav ul li {
@@ -124,6 +124,19 @@ nav span {
 
     ul .btn {
         font-size: 14px;
+    }
+
+    .logo-cover1 .logo-inside2 h5 {
+        font-size: .7rem;
+    }
+
+    .logo-cover1 .logo-inside2 h3 {
+        font-size: 1rem;
+    }
+
+    .logo-cover1 .logo-inside2 {
+        /* border: 2px solid red; */
+        line-height: 2rem;
     }
 
 }
@@ -139,8 +152,7 @@ nav span {
         top: 0;
         right: 0px;
         bottom: 0;
-        /* background: var(--theme-color-bg); */
-        background: var(--theme-color-highlight);
+        background-color: var(--theme-color-bg);
         width: 200px;
         padding-top: 70px;
         transition: ease-in-out 0.5s;
@@ -181,11 +193,21 @@ nav span {
     }
 
     .logo-cover1 .logo-inside2 h5 {
-        font-size: .5rem;
+        font-size: .6rem;
     }
 
     .logo-cover1 .logo-inside2 h3 {
-        font-size: 2rem;
+        font-size: .9rem;
+    }
+
+    .logo-cover1 .logo-inside2 {
+        /* border: 2px solid red; */
+        line-height: 1.5rem;
+    }
+
+    .btn-li .btn {
+        /* background-color: var(--theme-color-bg); */
+        border: 2px solid white;
     }
 
 }

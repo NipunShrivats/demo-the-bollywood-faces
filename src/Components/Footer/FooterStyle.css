@@ -43,7 +43,7 @@
 
 .footer .foot1 .foot1-2 .privacy {
     font-size: 1rem;
-    color: red;
+    color: var(--theme-color-bg);
     transition: .5s;
 }
 

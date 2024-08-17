@@ -10,8 +10,9 @@
     margin-bottom: 70px;
 }
 
-.title p,
-.title h2 {}
+.title p {
+    color: var(--theme-color-bg);
+}
 
 .title h2 {
     color: #000F38;
