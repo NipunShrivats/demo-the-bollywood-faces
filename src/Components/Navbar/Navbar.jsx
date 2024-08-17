@@ -28,25 +28,23 @@ export default function Navbar() {
     return (
         <>
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-                <div className='logo-cover1'>
-                    <div className='logo-inside1'>
-                        <img src={logow} className='logo' alt="" />
-                    </div>
+                <a href="/">
+                    <div className='logo-cover1'>
+                        <div className='logo-inside1'>
+                            <img src={logow} className='logo' alt="" />
+                        </div>
 
-                    <div className='logo-inside2'>
-                        <h5>SENSATIONZ</h5>
-                        <h3>The Bollywood Faces</h3>
+                        <div className='logo-inside2'>
+                            <h5>SENSATIONZ</h5>
+                            <h3>The Bollywood Faces</h3>
+                        </div>
                     </div>
-
-                </div>
+                </a>
                 <img src={MenuIcon} alt="" className='menu-icon' onClick={toggleMenu} />
 
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
 
-                    <li><Link to='hero'
-                        smooth={true}
-                        offset={0}
-                        durastion={500}>Home</Link></li>
+                    <li><a href='/'>Home</a></li>
 
                     <li><a href="/Issues">Issues</a></li>
 
@@ -57,12 +55,14 @@ export default function Navbar() {
                         offset={-230}
                         durastion={500}>Magazine release</Link></li>
 
+                    {/* <li><a href="#magazine">Magazine release</a></li> */}
+
                     <li className='btn-li'><Link to='contact'
                         smooth={true}
                         offset={-250}
                         durastion={500} className='btn dark-btn'>Contact Us</Link> </li>
                 </ul>
-            </nav>
+            </nav >
         </>
     )
 }

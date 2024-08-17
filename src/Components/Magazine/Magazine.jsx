@@ -27,6 +27,8 @@ export default function Magazine() {
     return (
         <ImageList
             className='magazine'
+            key="magazine"
+            id="magazine"
             // sx={{ width: 500, height: 450 }}
             variant="quilted"
             cols={4}

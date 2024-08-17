@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import "./IssuesStyle.css"
 import Nav from "../../Components/Navbar/Navbar"
+import HeroIssues from "../../Components/HeroIssues/HeroIssues"
 
 import BeatLoader from "react-spinners/BeatLoader";
 export default function Issues() {
@@ -33,7 +34,7 @@ export default function Issues() {
                     :
                     <>
                         <Nav />
-                        {/* <HeroIssues /> */}
+                        <HeroIssues />
 
                     </>
             }
