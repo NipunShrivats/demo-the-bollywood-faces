@@ -2,6 +2,8 @@ import { React, useState, useEffect } from 'react';
 import "./IssuesStyle.css"
 import Nav from "../../Components/Navbar/Navbar"
 import HeroIssues from "../../Components/HeroIssues/HeroIssues"
+import IssueCards from "../../Components/IssueCards/IssueCards"
+import Title from "../../Components/Title/Title"
 
 import BeatLoader from "react-spinners/BeatLoader";
 export default function Issues() {
@@ -35,6 +37,11 @@ export default function Issues() {
                     <>
                         <Nav />
                         <HeroIssues />
+
+                        <div className='container'>
+                            <Title title={"magazine"} subtitle={"view our magazine issues"} />
+                            <IssueCards />
+                        </div>
 
                     </>
             }

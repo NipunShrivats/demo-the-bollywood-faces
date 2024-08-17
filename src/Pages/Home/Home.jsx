@@ -54,10 +54,6 @@ export default function Home() {
                             < Magazine />
                         </div>
 
-                        <div className='container'>
-                            <Title title={"contact us"} subtitle={"get in touch"} />
-                            <Contact />
-                        </div>
                         <VideoPlayer playState={playState} setPlayState={setPlayState} />
                     </>
             }

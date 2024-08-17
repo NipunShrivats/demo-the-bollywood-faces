@@ -1,0 +1,41 @@
+.issue {
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.issueCard {
+    /* border: 2px solid rgb(0, 255, 17); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.issueCard .image {
+    width: 20rem;
+}
+
+.issueCard .image:hover {
+    scale: 1.1;
+}
+
+.issueCard .bottom-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 3rem;
+    /* background-color: rgba(103, 103, 103, 0.192); */
+    width: 19.5rem;
+
+}
+
+.issueCard .bottom-box p {
+    /* border: 2px solid red; */
+}

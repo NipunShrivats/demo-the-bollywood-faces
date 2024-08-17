@@ -1,8 +1,8 @@
-.heroIssues {
+.heroSuccess {
     width: 100%;
     min-height: 80vh;
     /* background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url("../../assets/imgAssets/hero.png"); */
-    background: linear-gradient(rgba(255, 213, 0, 0.137), rgba(0, 0, 0, 0.594)), url("../../assets/imgAssets/hero2.jpg");
+    background: linear-gradient(rgba(255, 213, 0, 0.137), rgba(0, 0, 0, 0.594)), url("../../assets/imgAssets/hero1.jpg");
     /* background: linear-gradient(var(--theme-color-highlight), var(--theme-color-highlight4)); */
     /* background: url("../../assets/imgAssets/hero5.png"); */
     background-size: cover;
@@ -38,8 +38,8 @@
     margin-bottom: 2rem;
 }
 
-.hero-text .btn {
-    margin-top: 1rem;
+.hero-text .span {
+    color: var(--theme-color-bg);
 }
 
 .hero-text .last-line {
@@ -65,7 +65,7 @@
     /* color: var(--theme-color-bg); */
 }
 
-.heroIssues.hero-text button span {
+.heroSuccess .hero-text button span {
     color: rgb(59, 59, 59);
     margin-right: 0.4rem;
 }
