@@ -24,12 +24,7 @@
     line-height: 2rem;
 }
 
-.hero-text h2 {
-    /* border: 2px solid white; */
-
-}
-
-.hero-text .to {
+.hero-text .middle-line {
     font-size: 2rem;
 }
 
@@ -40,7 +35,6 @@
     color: #ffffff;
     width: 100%;
     text-transform: capitalize;
-    /* margin-bottom: 20rem; */
 }
 
 .hero-text .last-line {
@@ -77,11 +71,19 @@
     .hero-text h1 {
         font-size: 3.8rem;
     }
+
+    .hero-text {
+        line-height: 1.6rem;
+    }
 }
 
 @media(max-width:850px) {
     .hero-text h1 {
         font-size: 3.6rem;
+    }
+
+    .hero-text {
+        line-height: 1.5rem;
     }
 }
 
@@ -96,16 +98,28 @@
         max-width: 300px;
         margin: 15px auto 30px;
     }
-}
 
-@media(max-width:680px) {
-    .hero-text h1 {
-        font-size: 2rem;
+    .hero-text {
+        line-height: 1rem;
     }
 }
 
 @media(max-width:400px) {
+    .hero-text h1 {
+        font-size: 2rem;
+        /* border: 2px solid red; */
+    }
+
+    .hero-text h1.middle-line {
+        font-size: 1.5rem;
+        /* border: 2px solid red; */
+    }
+
     .hero-text h1.last-line {
         font-size: 1.6rem;
+    }
+
+    .hero-text {
+        line-height: .2rem;
     }
 }
