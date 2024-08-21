@@ -106,20 +106,7 @@
 
 @media(max-width:400px) {
     .hero-text h1 {
-        font-size: 2rem;
-        /* border: 2px solid red; */
-    }
-
-    .hero-text h1.middle-line {
-        font-size: 1.5rem;
-        /* border: 2px solid red; */
-    }
-
-    .hero-text h1.last-line {
-        font-size: 1.6rem;
-    }
-
-    .hero-text {
-        line-height: .2rem;
+        font-size: 300px;
+        margin: -1.5rem 0rem;
     }
 }
