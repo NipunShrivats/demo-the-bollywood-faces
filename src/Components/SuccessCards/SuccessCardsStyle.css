@@ -19,10 +19,11 @@
 
 .issueCard .image {
     width: 20rem;
+    transition: 1s;
 }
 
 .issueCard .image:hover {
-    scale: 1.1;
+    scale: 2;
 }
 
 .issueCard .bottom-box {
@@ -38,4 +39,22 @@
 
 .issueCard .bottom-box p {
     /* border: 2px solid red; */
+}
+
+@media (max-width: 1200px) {
+    .issueCard .image:hover {
+        scale: 1.5;
+    }
+}
+
+@media (max-width: 800px) {
+    .issueCard .image:hover {
+        scale: 1.2;
+    }
+}
+
+@media (max-width: 600px) {
+    .issueCard .image:hover {
+        scale: 1.08;
+    }
 }

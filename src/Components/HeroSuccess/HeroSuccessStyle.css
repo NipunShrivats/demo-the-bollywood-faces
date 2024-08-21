@@ -15,6 +15,7 @@
 }
 
 .hero-text {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,24 +46,6 @@
 .hero-text .last-line {
     color: var(--theme-color-bg);
 
-}
-
-.hero-text h3 {
-    margin-top: .8rem;
-    /* border: 2px solid white; */
-    text-transform: capitalize;
-    /* color: var(--theme-color-bg); */
-    color: white;
-}
-
-.hero-text p {
-    /* border: 2px solid red; */
-    font-size: 1.2rem;
-    max-width: 700px;
-    margin: 10px auto 20px;
-    line-height: 1.4;
-    color: white;
-    /* color: var(--theme-color-bg); */
 }
 
 .heroSuccess .hero-text button span {
@@ -114,5 +97,9 @@
 @media(max-width:400px) {
     .hero-text h1.last-line {
         font-size: 1.6rem;
+    }
+
+    .hero-text h1 {
+        line-height: 1;
     }
 }
