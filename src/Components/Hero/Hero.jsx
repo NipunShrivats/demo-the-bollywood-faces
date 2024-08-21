@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <>
             <div className='hero container'>
-                <div className='hero-text'>
+                <div className='hero-text hero-block'>
                     <h1>welcome</h1>
                     <h1 className='middle-line'>to</h1>
                     <h1 className='last-line'>the bollywood faces</h1>

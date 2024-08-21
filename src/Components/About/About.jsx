@@ -9,7 +9,7 @@ export default function About({ setPlayState }) {
         <>
             <div className='about'>
 
-                <div className='about-right'>
+                <div className='about-right stiff-block'>
                     <h3>About The Bollywood Faces</h3>
                     <p>The Bollywood Faces is a unit of Sensationz Media & Art Pvt. Ltd. Covering various personalities related to segments like Photographer, Designer, Makeup Artist, Makeover Artist, Production Houses. In this context we have covered various personality such as Varija Bajaj, Pooja Motwani, Rahul Dutta, Suvo Das, Meenakshi Dutta, Gunjan Gaur, Akash K Agarwal and Lt. Rita gangwani in past issues.</p>
 
@@ -18,7 +18,7 @@ export default function About({ setPlayState }) {
                     <p>The Bollywood Faces’s unveiling ceremony is through an event which provides an opportunity for networking with industry stalwart and socialite. As this event revolve around a social issue, so it gives the platform to fulfill the social responsibility also</p>
                 </div>
 
-                <div className='about-left'>
+                <div className='about-left stiff-block'>
                     <img src={aboutImg} className='about-img' alt="" />
                     <img src={playIcon} className='play-icon' alt="" onClick={() => { setPlayState(true) }} />
                 </div>

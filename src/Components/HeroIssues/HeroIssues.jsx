@@ -7,7 +7,7 @@ export default function HeroIssues() {
     return (
         <>
             <div className='heroIssues container'>
-                <div className='hero-text'>
+                <div className='hero-text hero-block'>
                     <h1>see our <span className='span'>magazine</span> issues</h1>
                     <Link to={"issue"}
                         smooth={true}

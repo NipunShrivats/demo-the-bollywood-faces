@@ -36,7 +36,7 @@ export default function Contact() {
     return (
         <>
             <div className='contact'>
-                <div className="contact-col">
+                <div className="contact-col stiff-block">
                     <h3>Send a message <img src={msg_icon} alt="" /></h3>
                     <p>Feel fre to reach out through contact form or find our conact information below. your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our members.</p>
                     <ul>
@@ -45,7 +45,7 @@ export default function Contact() {
                         <li><span><FaLocationDot /></span>B-305, 3rd Floor & A-201, 2nd Floor,<br /> North Ex Mall, Pocket 18,<br /> Sector-9, Rohini, New Delhi-110085</li>
                     </ul>
                 </div>
-                <div className="contact-col">
+                <div className="contact-col stiff-block">
                     <form onSubmit={onSubmit}>
                         <label htmlFor="">YourName</label>
                         <input type="text" name="name" placeholder='Enter your name...' required />

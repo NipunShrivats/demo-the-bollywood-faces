@@ -26,7 +26,7 @@ function Card(props) {
         <>
             <div className='issueCard'>
                 <Link to={to} target='blank_'>
-                    <img src={src} alt={src} className='image' />
+                    <img src={src} alt={src} className='image stiff-block' />
                 </Link>
                 <div className='bottom-box'>
                     <p>{title}</p>

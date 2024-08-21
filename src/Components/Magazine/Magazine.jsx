@@ -26,7 +26,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function Magazine() {
     return (
         <ImageList
-            className='magazine'
+            className='magazine stiff-block'
             key="magazine"
             id="magazine"
             // sx={{ width: 500, height: 450 }}
@@ -35,7 +35,7 @@ export default function Magazine() {
             rowHeight={121}
         >
             {itemData.map((item) => (
-                <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
+                <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1} >
                     <img
                         {...srcset(item.img, 121, item.rows, item.cols)}
                         alt={item.title}

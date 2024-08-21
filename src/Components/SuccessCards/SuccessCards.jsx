@@ -10,11 +10,11 @@ import success5 from "../../assets/success/5.png";
 import success6 from "../../assets/success/6.png";
 
 function Card(props) {
-    const { src, title, to } = props
+    const { src, title } = props
     return (
         <>
-            <div className='issueCard'>
-                <img src={src} alt={src} className='image' />
+            <div className='successCard'>
+                <img src={src} alt={src} className='image stiff-block' />
                 <div className='bottom-box'>
                     <p>{title}</p>
                 </div>
@@ -26,7 +26,7 @@ function Card(props) {
 export default function IssueCards() {
     return (
         <>
-            <div className="issue">
+            <div className="success">
                 <Card src={success1} />
                 <Card src={success2} />
                 <Card src={success3} />
