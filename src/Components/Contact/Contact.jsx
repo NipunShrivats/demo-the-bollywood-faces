@@ -40,7 +40,7 @@ export default function Contact() {
                     <h3>Send a message <img src={msg_icon} alt="" /></h3>
                     <p>Feel fre to reach out through contact form or find our conact information below. your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our members.</p>
                     <ul>
-                        <li><span><MdEmail /></span>digitalsensationz@gmail.com</li>
+                        <li><span><MdEmail /></span>thebollywoodfaces@gmail.com</li>
                         <li><span><FaHeadphonesSimple /></span>+91 8800-348-485 [Ruchi Pahwa] <br />(Business Development Manager)</li>
                         <li><span><FaLocationDot /></span>B-305, 3rd Floor & A-201, 2nd Floor,<br /> North Ex Mall, Pocket 18,<br /> Sector-9, Rohini, New Delhi-110085</li>
                     </ul>
