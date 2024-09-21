@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0.9;
+    background-position: left top;
 }
 
 .hero-text {
@@ -19,7 +20,7 @@
     display: flex;
     flex-direction: column;
     line-height: 2rem;
-    margin-left: 45rem;
+    /* margin-left: 35rem; */
     margin-top: 2rem;
 }
 
@@ -99,6 +100,10 @@
 }
 
 @media(max-width:680px) {
+    .hero {
+        background-position: -100px 0px;
+    }
+
     .hero-text h1 {
         font-size: 2.5rem;
     }
@@ -116,6 +121,10 @@
 }
 
 @media(max-width:400px) {
+    .hero {
+        background-position: -300px 0px;
+    }
+
     .hero-text {
         margin-top: 5rem;
     }
