@@ -6,6 +6,7 @@ import Contact from "./Components/Contact/Contact";
 import Title from "./Components/Title/Title";
 import Issues from "./Pages/Issues/Issues";
 import Success from "./Pages/Success/Success";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
           <Route path="/PrivacyPolicy" exact={true} element={<Policy />} />
