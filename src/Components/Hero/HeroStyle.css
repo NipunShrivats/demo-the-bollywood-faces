@@ -120,6 +120,13 @@
     }
 }
 
+@media(max-width:500px) {
+    .hero {
+        background-position: -290px 0px;
+        min-height: 60vh;
+    }
+}
+
 @media(max-width:400px) {
     .hero {
         background-position: -300px 0px;
