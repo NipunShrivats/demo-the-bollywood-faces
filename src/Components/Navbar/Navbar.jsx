@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./NavbarStyle.css";
 import logow from "../../assets/imgAssets/logo-white.png";
 import logob from "../../assets/imgAssets/logo-black.png";
-import logoMain from "../../assets/imgAssets/bollywoodfaces.png";
+import logoMain from "../../assets/imgAssets/logo-bollywood.png";
 
 import {
   Link,
