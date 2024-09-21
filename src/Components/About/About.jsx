@@ -10,7 +10,7 @@ export default function About({ setPlayState }) {
         <div className="about-right stiff-block">
           {/* <h3>About The Bollywood Faces</h3> */}
           <p>
-            The Bollywood Faces is a unit of Sensationz Media & Art Pvt. Ltd.
+            The Bollywood Faces is a unit of Sensationz Media & Arts Pvt. Ltd.
             Covering various personalities related to segments like
             Photographer, Designer, Makeup Artist, Makeover Artist, Production
             Houses. In this context we have covered various personality such as
@@ -19,11 +19,11 @@ export default function About({ setPlayState }) {
           </p>
 
           <p>
-            “The Bollywood Faces” also help the newcomers to craft their career
+            "The Bollywood Faces" also help the newcomers to craft their career
             in the Modelling and Acting. This work as a interface between the
-            industry and budding talent, in this process we have produced many
-            stars who are shining in glamour world be it daily sops like “Yeh
-            Rishta Kya Kahalata Hai”, ” Yeh Vada Raha”, “Sasural Simar Ka” or ad
+            industry and budding talent, In this process we have produced many
+            stars who are shining in glamour world be it daily sops like "Yeh
+            Rishta Kya Kahalata Hai", "Yeh Vada Raha", "Sasural Simar Ka" or ad
             films, feature films are all there in our kitty.
           </p>
 
