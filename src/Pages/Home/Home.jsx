@@ -46,10 +46,7 @@ export default function Home() {
           </div>
 
           <div className="container">
-            <Title
-              title={"Magazine Release"}
-              subtitle={"Magazine Release Event"}
-            />
+            <Title title={"Gallery"} subtitle={"Magazine Release"} />
             <Magazine />
           </div>
 
