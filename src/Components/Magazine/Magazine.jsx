@@ -14,6 +14,7 @@ import img9 from "../../assets/MagzineRelease/9.png";
 import img10 from "../../assets/MagzineRelease/10.png";
 import img11 from "../../assets/MagzineRelease/11.png";
 import img12 from "../../assets/MagzineRelease/12.png";
+import img13 from "../../assets/MagzineRelease/13.jpeg";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -53,6 +54,12 @@ export default function Magazine() {
 }
 
 const itemData = [
+  {
+    img: img13,
+    title: "image13",
+    rows: 2,
+    cols: 2,
+  },
   {
     img: img1,
     title: "image1",
