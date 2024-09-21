@@ -63,11 +63,11 @@ export default function Navbar() {
             <a href="/Successstories">Success Stories</a>
           </li>
 
-          <li>
+          {/* <li>
             <Link to="magazine" smooth={true} offset={-230} durastion={500}>
               Magazine release
             </Link>
-          </li>
+          </li> */}
 
           {/* <li><a href="#magazine">Magazine release</a></li> */}
 
