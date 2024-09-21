@@ -121,6 +121,10 @@
 }
 
 @media(max-width:500px) {
+    .hero-text {
+        margin-top: 5rem;
+    }
+
     .hero {
         background-position: -290px 0px;
         min-height: 60vh;
