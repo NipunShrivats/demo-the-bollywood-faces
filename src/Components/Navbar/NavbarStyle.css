@@ -12,6 +12,11 @@ nav {
     z-index: 10;
 }
 
+.logo-main {
+    /* border: 2px solid red; */
+    width: 20rem;
+}
+
 .logo-cover1 {
     display: flex;
     align-items: center;
@@ -210,4 +215,26 @@ nav span {
         border: 2px solid white;
     }
 
+    .logo-main {
+        width: 16rem;
+    }
+
+}
+
+@media (max-width:800px) {
+    .logo-main {
+        width: 15rem;
+    }
+}
+
+@media (max-width:600px) {
+    .logo-main {
+        width: 14rem;
+    }
+}
+
+@media (max-width:400px) {
+    .logo-main {
+        width: 12rem;
+    }
 }
