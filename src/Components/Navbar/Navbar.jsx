@@ -4,6 +4,8 @@ import logow from "../../assets/imgAssets/logo-white.png";
 import logob from "../../assets/imgAssets/logo-black.png";
 import logoMain from "../../assets/imgAssets/logo-bollywood.png";
 
+import { NavLink } from "react-router-dom";
+
 import {
   Link,
   Button,
@@ -35,7 +37,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-        <a href="/">
+        <NavLink to="/">
           {/* <div className="logo-cover1">
             <div className="logo-inside1">
               <img src={logow} className="logo" alt="" />
@@ -47,20 +49,24 @@ export default function Navbar() {
             </div>
           </div> */}
           <img src={logoMain} alt="" className="logo-main" />
-        </a>
+        </NavLink>
         <img src={MenuIcon} alt="" className="menu-icon" onClick={toggleMenu} />
 
         <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
           <li>
-            <a href="/">Home</a>
+            <NavLink to={`${import.meta.env.VITE_BASE_URL}`}>Home</NavLink>
           </li>
 
           <li>
-            <a href="/Issues">Issues</a>
+            <NavLink to={`${import.meta.env.VITE_BASE_URL}/Issues`}>
+              Issues
+            </NavLink>
           </li>
 
           <li>
-            <a href="/Successstories">Success Stories</a>
+            <NavLink to={`${import.meta.env.VITE_BASE_URL}/Successstories`}>
+              Success Stories
+            </NavLink>
           </li>
 
           {/* <li>
@@ -69,7 +75,7 @@ export default function Navbar() {
             </Link>
           </li> */}
 
-          {/* <li><a href="#magazine">Magazine release</a></li> */}
+          {/* <li><a to="#magazine">Magazine release</a></li> */}
 
           <li className="btn-li">
             <Link
